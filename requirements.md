@@ -9,3 +9,15 @@ Currect blockers:
 3. zoomsdk lib referrences
 
 
+
+
+
+========
+
+installation issue
+1. in main.cpp, hover on the `#include<glib.h>` 'glib.h' file not foundclang(pp_file_not_found)
+    1. solution: remove empty `./build/` dir
+2. W: [pulseaudio] main.c: This program is not intended to be run as root (unless --system is specified).
+3. Need to have container running even after script termination
+    1. https://kodekloud.com/blog/keep-docker-container-running/
+

@@ -22,6 +22,8 @@ Config::Config() :
 
     m_app.add_flag("-s, --start", m_isMeetingStart, "Start a Zoom Meeting");
 
+    m_app.add_flag("-z, --random-str", m_randomStr, "Test for the random string");
+
     m_rawRecordAudioCmd->add_option("-f, --file", m_audioFile, "Output PCM audio file")->required();
     m_rawRecordAudioCmd->add_option("-d, --dir", m_audioDir, "Audio Output Directory");
     m_rawRecordAudioCmd->add_flag("-s, --separate-participants", m_separateParticipantAudio, "Output to separate PCM files for each participant");

@@ -44,6 +44,7 @@ class Config {
 
     string m_zoomHost = "https://zoom.us";
     string m_joinToken;
+    string m_randomStr;
 
     bool m_isMeetingStart;
 

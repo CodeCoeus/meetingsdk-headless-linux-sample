@@ -50,8 +50,9 @@ build() {
 run() {
   exec ./"$BUILD"/zoomsdk;
 }
+tail -f /dev/null
+# build
+# build && run;
 
-build && run;
-
-exit
+# exit
 
